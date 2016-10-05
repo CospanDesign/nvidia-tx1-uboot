@@ -26,6 +26,15 @@ config TARGET_P2371_2180
 	  micro-B port, Ethernet via USB3, USB3 host port, SATA, PCIe, and
 	  two GPIO expansion headers.
 
+config TARGET_MIT_UAV_REVA
+	bool "MIT UAV Rev A board"
+	help
+	  MIT uav is a P2180 CPU board married to a UAV board. The
+	  combination contains SoC, DRAM, eMMC, SD card slot, USB, a Gyro
+		and accellerometer, 3 connectors for Raspberry Pi Cameras (imx219)
+		2 for stereo video and 1 underneath, Ethernet via USB3 low
+		speed peripheral buses.
+
 config TARGET_P2571
 	bool "NVIDIA Tegra210 P2571 base board"
 	help
@@ -39,6 +48,7 @@ config SYS_SOC
 source "board/nvidia/e2220-1170/Kconfig"
 source "board/nvidia/p2371-0000/Kconfig"
 source "board/nvidia/p2371-2180/Kconfig"
+source "board/nvidia/mit-uav-reva/Kconfig"
 source "board/nvidia/p2571/Kconfig"
 
 endif
