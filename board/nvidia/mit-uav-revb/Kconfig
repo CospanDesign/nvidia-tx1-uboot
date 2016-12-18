@@ -1,0 +1,12 @@
+if TARGET_MIT_UAV_REVB
+
+config SYS_BOARD
+	default "mit-uav-revb"
+
+config SYS_VENDOR
+	default "nvidia"
+
+config SYS_CONFIG_NAME
+	default "mit-uav-revb"
+
+endif
