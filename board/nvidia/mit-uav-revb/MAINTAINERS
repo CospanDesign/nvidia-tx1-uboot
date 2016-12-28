@@ -1,6 +1,6 @@
-P2371-2180 BOARD
-M:	Tom Warren <twarren@nvidia.com>
+MIT-UAV-REVB BOARD
+M:	Dave McCoy <dave.mccoy@cospandesign.com>
 S:	Maintained
-F:	board/nvidia/p2371-2180/
-F:	include/configs/p2371-2180.h
-F:	configs/p2371-2180_defconfig
+F:	board/nvidia/mit-uav-revb/
+F:	include/configs/mit-uav-revb.h
+F:	configs/mit-uav-revb_defconfig
